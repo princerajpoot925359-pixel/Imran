@@ -24,23 +24,23 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.imgur.com/HnxHi6i.jpeg"];
+["https://i.imgur.com/QJm7rFe.jpeg"];
 var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇮🇳 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇮🇳 
 (⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
 
 ☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
 
-🔥Bot Admin🔥─━━◉❖𝐊𝐇𝐀𝐍≛𝐒𝐀𝐇𝐀𝐁❖◉━━─💔🥀
+🔥Bot Admin🔥─━━◉❖KHAN SAHAB❖◉━━─💔🥀
 
-🙈bot andmin owner facebook id link🙈➪ https://www.facebook.com/shernikijaankhansahab143 💞🕊️
+🙈bot andmin owner facebook id link🙈➪ https://m.facebook.com/profile.php?id=61579619590022 💞🕊️
 
-👋For Any Kind Of Help Contact On Instagram 👇👇 https://instagram.com/_Khan_sahab__?igshid=OGQ5ZDc2ODk2ZA==
+👋For Any Kind Of Help Contact whatsp +91 9827##2189
 
 ✧══════•❁❀❁•══════✧
 
-🌸Bot Prefix🌸☞︎︎︎#☜︎︎︎✰ {global.config.PREFIX}
+🌸Bot Prefix🌸☞︎︎︎#☜︎︎︎✰ ${global.config.PREFIX}
 
-♥️Bot Owner♥️ ─━━◉❖𝐊𝐇𝐀𝐍≛𝐒𝐀𝐇𝐀𝐁❖◉━━─
+♥️Bot Owner♥️ ─━━◉❖KHAN SAHAB❖◉━━─
 
 🥳UPTIME🥳
 
@@ -53,7 +53,7 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✧✰🍒─━━◉❖𝐊𝐇𝐀𝐍≛𝐒𝐀𝐇𝐀𝐁❖◉━━─🌿✰✧✧✧✧✦🌸
+🌸✦✧✧✧✧✰🍒─━━◉❖KHAN SAHAB❖◉━━─🌿✰✧✧✧✧✦🌸
 ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
 
 
