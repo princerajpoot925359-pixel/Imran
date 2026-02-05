@@ -31,7 +31,7 @@ module.exports.run = async function({ api, event }) {
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
       api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? " " : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
       const fs = require("fs");
-      return api.sendMessage("", event.threadID, () => api.sendMessage({body: `(लो में आ गया आपका ✦𝗝𝗔𝗔𝗧✦ जल्दी से स्वागत करो हमारा 😀👈\n●============================================●\n\nऔर मेरे प्यारे दोस्तो जल्दी से मेरे बॉस जुल्मी जाट को रिक्वेस्ट भेज दो 😌👈\n●============================================●\nhttps://www.facebook.com/julmijaat1008?mibextid=ZbWKwL\n●============================================●\n\n𝗽𝗿𝗲𝗳𝗶𝘅 => 👉 ${global.config.PREFIX} 👈\n●============================================●\n\nबोट अप्रूवल के लिए ${global.config.PREFIX}request लिख के Send कर दो 🙂🖐️) 
+      return api.sendMessage("", event.threadID, () => api.sendMessage({body: `(लो में आ गई Apki✦𝐅𝐋𝐀𝐊✦ जल्दी से स्वागत करो हमारा 😀👈\n●============================================●\n\nऔर मेरे प्यारे दोस्तो जल्दी से मेरे बॉस khan bos को रिक्वेस्ट भेज दो 😌👈\n●============================================●\nhttps://www.facebook.com/shernikijaankhansahab143\n●============================================●\n\n𝗽𝗿𝗲𝗳𝗶𝘅 => 👉 ${global.config.PREFIX} 👈\n●============================================●\n\nबोट अप्रूवल के लिए ${global.config.PREFIX}request लिख के Send कर दो 🙂🖐️) 
 `, attachment: fs.createReadStream(__dirname + "/cache/botjoin.mp4")} ,threadID));
   }
   else {
@@ -53,7 +53,7 @@ module.exports.run = async function({ api, event }) {
           }
           memLength.sort((a, b) => a - b);
 
-          (typeof threadData.customJoin == "undefined") ? msg = "─━━◉❖✦𝗝𝗔𝗔𝗧✦≛✦𝗕𝗢𝗧✦❖◉━━─━━━━━━━━━━✤━━━━━━━━ 𝙍𝘼𝙈 𝙍𝘼𝙈 𝙅𝙄 ❘✤ {name} ✤❘ 𝙈𝙊𝙎𝙏 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙊𝙐𝙍 𝙁𝘼𝙈𝙄𝙇𝙔 𝙂𝙍𝙊𝙐𝙋 😘🎉 \n━━━━━━━━━✤━━━━━━━━\n 𝗬𝗢𝗨 𝗔𝗥𝗘 𝗧𝗛𝗘 『 {soThanhVien} 』 𝗠𝗘𝗠𝗕𝗘𝗥 𝗢𝗙    〈✶ {threadName} ✶〉 𝗚𝗥𝗢𝗨𝗣 😇\n━━━━━━━━━━✤━━━━━━━━\n 🌸𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 🥵〖─━━◉❖𝗝𝗨𝗟𝗠𝗜≛𝗝𝗔𝗔𝗧❖◉━━─〗😎\n━━━━━━━━━━✤━━━━━━━\n 𝙳𝙾𝙽𝚃 𝙰𝙱𝚄𝚂𝙴 𝙾𝚁 𝚂𝙿𝙰𝙼 𝙾𝚃𝙷𝙴𝚁 𝚆𝙸𝚂𝙴 𝙶𝚁𝙾𝚄𝙿 🐼 『𝙰𝙳𝙼𝙸𝙽𝙸𝚂𝚃𝚁𝙰𝚃𝙾𝚁』🥀 𝚁𝙴𝙼𝙾𝚅𝙴 𝚈𝙾𝚄 😈 \n━━━━━━━━━━✤━━━━━━━━\n𝑭𝑶𝑳𝑳𝑶𝑾 𝑮𝑹𝑶𝑼𝑷 𝑹𝑼𝑳𝑬𝑺 & 𝑹𝑬𝑺𝑷𝑬𝑪𝑻 𝒀𝑶𝑼𝑹 𝑺𝑰𝑺𝑻𝑬𝑹 𝑨𝑵𝑫 𝑩𝑹𝑶𝑻𝑯𝑬𝑹 🤗\n━━━━━━━━━━✤━━━━━━━━\n 🫡𝗜𝗙 𝗨𝗦𝗘 𝗠𝗘𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧𝗕𝗢𝗧😜《 ᴮᴼᵀ ᴾᴿᴱᶠᴵˣ [#] ᵀʸᴾᴱ ᴴᴱᴸᴾ/ᴹᴱᴺᵁ ᵀᴼ ˢᴱᴱ ᴬᴸᴸ ᶜᴼᴹᴹᴬᴺᴰ 》😉\n━━━━━━━━━━✤━━━━━━━━🐸🍧  кｅⓔᵖ ε𝐍Ⓙᵒу 𝕒Ňᵈ Ｓ𝓉คү ａℂⓣ𝐢𝓿𝑒  ☜🐚\n━━━━━━━━━━✤━━━━━━━━\n─━━◉❖जुल्मी≛जाट❖◉━━─" : msg = threadData.customJoin;
+          (typeof threadData.customJoin == "undefined") ? msg = "─━━◉❖✦𝐊𝐇𝐀𝐍✦≛✦𝐒𝐀𝐇𝐀𝐁✦❖◉━━─━━━━━━━━━━✤━━━━━━━━ 𝐀𝐒𝐒𝐋𝐀𝐌𝐔 𝐀𝐋𝐀𝐈𝐊𝐔𝐌❘✤ {name} ✤❘ 𝙈𝙊𝙎𝙏 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 𝙊𝙐𝙍 𝙁𝘼𝙈𝙄𝙇𝙔 𝙂𝙍𝙊𝙐𝙋 😘🎉 \n━━━━━━━━━✤━━━━━━━━\n 𝗬𝗢𝗨 𝗔𝗥𝗘 𝗧𝗛𝗘 『 {soThanhVien} 』 𝗠𝗘𝗠𝗕𝗘𝗥 𝗢𝗙    〈✶ {threadName} ✶〉 𝗚𝗥𝗢𝗨𝗣 😇\n━━━━━━━━━━✤━━━━━━━━\n 🌸𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 🥵〖─━━◉❖𝐊𝐇𝐀𝐍≛𝐒𝐀𝐇𝐀𝐁❖◉━━─〗😎\n━━━━━━━━━━✤━━━━━━━\n 𝙳𝙾𝙽𝚃 𝙰𝙱𝚄𝚂𝙴 𝙾𝚁 𝚂𝙿𝙰𝙼 𝙾𝚃𝙷𝙴𝚁 𝚆𝙸𝚂𝙴 𝙶𝚁𝙾𝚄𝙿 🐼 『𝙰𝙳𝙼𝙸𝙽𝙸𝚂𝚃𝚁𝙰𝚃𝙾𝚁』🥀 𝚁𝙴𝙼𝙾𝚅𝙴 𝚈𝙾𝚄 😈 \n━━━━━━━━━━✤━━━━━━━━\n𝑭𝑶𝑳𝑳𝑶𝑾 𝑮𝑹𝑶𝑼𝑷 𝑹𝑼𝑳𝑬𝑺 & 𝑹𝑬𝑺𝑷𝑬𝑪𝑻 𝒀𝑶𝑼𝑹 𝑺𝑰𝑺𝑻𝑬𝑹 𝑨𝑵𝑫 𝑩𝑹𝑶𝑻𝑯𝑬𝑹 🤗\n━━━━━━━━━━✤━━━━━━━━\n 🫡𝗜𝗙 𝗨𝗦𝗘 𝗠𝗘𝗦𝗦𝗘𝗡𝗚𝗘𝗥 𝗖𝗛𝗔𝗧𝗕𝗢𝗧😜《 ᴮᴼᵀ ᴾᴿᴱᶠᴵˣ [#] ᵀʸᴾᴱ ᴴᴱᴸᴾ/ᴹᴱᴺᵁ ᵀᴼ ˢᴱᴱ ᴬᴸᴸ ᶜᴼᴹᴹᴬᴺᴰ 》😉\n━━━━━━━━━━✤━━━━━━━━🐸🍧  кｅⓔᵖ ε𝐍Ⓙᵒу 𝕒Ňᵈ Ｓ𝓉คү ａℂⓣ𝐢𝓿𝑒  ☜🐚\n━━━━━━━━━━✤━━━━━━━━\n─━━◉❖𝐊𝐇𝐀𝐍≛𝐒𝐀𝐇𝐀𝐁❖◉━━─" : msg = threadData.customJoin;
           msg = msg
           .replace(/\{name}/g, nameArray.join(', '))
           .replace(/\{type}/g, (memLength.length > 1) ?  'Friends' : 'Friend')
